@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>开发人员配置MAC | 龍馬随记</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="大三下半学期，用自己做项目预留以及母亲资助的钱，购买了教育版2015早期13寸MPB。使用下来，感觉甚是方便，熟悉的命令行，精致的图形化界面，设计简洁又极致轻薄，非常喜欢。后续实习乃至现今读研，一直在mac、windows、ubuntu系统之间切换使用。本文主要讲述开发人员经常使用到的开发及效率工具，便于自己和你们后续使用。 包管理工具HomebrewmacOS没有自带包管理工具，而Homebre">
+<meta property="og:type" content="article">
+<meta property="og:title" content="开发人员配置MAC">
+<meta property="og:url" content="http://dragonma1996.github.io/2019/04/13/macos-config-for-developer/index.html">
+<meta property="og:site_name" content="龍馬随记">
+<meta property="og:description" content="大三下半学期，用自己做项目预留以及母亲资助的钱，购买了教育版2015早期13寸MPB。使用下来，感觉甚是方便，熟悉的命令行，精致的图形化界面，设计简洁又极致轻薄，非常喜欢。后续实习乃至现今读研，一直在mac、windows、ubuntu系统之间切换使用。本文主要讲述开发人员经常使用到的开发及效率工具，便于自己和你们后续使用。 包管理工具HomebrewmacOS没有自带包管理工具，而Homebre">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-04-14T03:44:55.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="开发人员配置MAC">
+<meta name="twitter:description" content="大三下半学期，用自己做项目预留以及母亲资助的钱，购买了教育版2015早期13寸MPB。使用下来，感觉甚是方便，熟悉的命令行，精致的图形化界面，设计简洁又极致轻薄，非常喜欢。后续实习乃至现今读研，一直在mac、windows、ubuntu系统之间切换使用。本文主要讲述开发人员经常使用到的开发及效率工具，便于自己和你们后续使用。 包管理工具HomebrewmacOS没有自带包管理工具，而Homebre">
+  
+    <link rel="alternate" href="/atom.xml" title="龍馬随记" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">龍馬随记</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://dragonma1996.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-macos-config-for-developer" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/04/13/macos-config-for-developer/" class="article-date">
+  <time datetime="2019-04-13T06:17:31.000Z" itemprop="datePublished">2019-04-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/macOS/">macOS</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      开发人员配置MAC
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <!-- Table of Contents -->
+        
+          <div id="toc" class="toc-article">
+            <strong class="toc-title">文章目录</strong>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#包管理工具"><span class="toc-number">1.</span> <span class="toc-text">包管理工具</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#终端工具"><span class="toc-number">2.</span> <span class="toc-text">终端工具</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#科学上网"><span class="toc-number">3.</span> <span class="toc-text">科学上网</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#内网穿透"><span class="toc-number">4.</span> <span class="toc-text">内网穿透</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#多设备键鼠共享"><span class="toc-number">5.</span> <span class="toc-text">多设备键鼠共享</span></a></li></ol>
+          </div>
+        
+        <p>大三下半学期，用自己做项目预留以及母亲资助的钱，购买了教育版2015早期13寸MPB。使用下来，感觉甚是方便，熟悉的命令行，精致的图形化界面，设计简洁又极致轻薄，非常喜欢。后续实习乃至现今读研，一直在mac、windows、ubuntu系统之间切换使用。本文主要讲述开发人员经常使用到的开发及效率工具，便于自己和你们后续使用。</p>
+<h2 id="包管理工具"><a href="#包管理工具" class="headerlink" title="包管理工具"></a>包管理工具</h2><p><strong>Homebrew</strong><br>macOS没有自带包管理工具，而Homebrew则是事实上的mac包管理工具（现在也支持Linux了:)）。通过它，可以安装绝大多数的cli和gui工具。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 安装</span></span><br><span class="line">/usr/bin/ruby -e <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)</span>"</span></span><br><span class="line"><span class="comment"># 2. 安装cli工具，如zsh、autojump等 </span></span><br><span class="line">brew install zsh autojump mysql postgresql redis pyenv node go git git-lfs shadowsocks-libev </span><br><span class="line"><span class="comment"># 3. 安装gui工具，如google-chrome、qq等</span></span><br><span class="line">brew cask install google-chrome wireshark iterm2 mounty thunder synergy 1password youdaodict teamviewer qq yinxiangbiji intellij-idea pycharm visual-studio-code</span><br></pre></td></tr></table></figure></p>
+<h2 id="终端工具"><a href="#终端工具" class="headerlink" title="终端工具"></a>终端工具</h2><p>macOS自带的Terminal和bash环境满足基本需求，但是如果想更加高效，可以使用iTerm2终端工具和zsh环境。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 安装iTerm2</span></span><br><span class="line">brew cask isntall iterm2</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 安装zsh并切换到zsh环境</span></span><br><span class="line">brew install zsh</span><br><span class="line">chsh -s /bin/zsh</span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 配置zsh，使用oh-my-zsh的配置方案</span></span><br><span class="line">sh -c <span class="string">"<span class="variable">$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>"</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 4. 配置zsh的命令高亮</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting</span><br><span class="line"><span class="comment">## 修改.zshrc文件</span></span><br><span class="line">vi ~/.zshrc</span><br><span class="line"><span class="comment">## 修改文件中plugin内容</span></span><br><span class="line">plugins=(</span><br><span class="line">  git</span><br><span class="line">  zsh-syntax-highlighting</span><br><span class="line">)</span><br><span class="line"><span class="comment">### 保存并执行配置文件</span></span><br><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br><span class="line"></span><br><span class="line"><span class="comment"># 5. 配置zsh自动补全</span></span><br><span class="line">git <span class="built_in">clone</span> git://github.com/zsh-users/zsh-autosuggestions <span class="variable">$ZSH_CUSTOM</span>/plugins/zsh-autosuggestions</span><br><span class="line"></span><br><span class="line">vi ~/.zshrc</span><br><span class="line">plugins=(</span><br><span class="line">  git</span><br><span class="line">  zsh-syntax-highlighting</span><br><span class="line">  zsh-autosuggestions</span><br><span class="line">) </span><br><span class="line"><span class="built_in">source</span> ~/.zshrc</span><br></pre></td></tr></table></figure></p>
+<p>还有其他经常使用到的命令行工具，比如autojump快速目录跳转、you-get“全网”视频下载等，自行搜索配置。</p>
+<h2 id="科学上网"><a href="#科学上网" class="headerlink" title="科学上网"></a>科学上网</h2><p>互联网是自由开放的，互通无边界限制。但是受上层建筑的影响，我们无能自由出入互联网。由于科研工作成长娱乐等需要，需要科学上网。这边主要介绍shadowsocks工具。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 安装shadowcocks cli或者shadowsocks gui</span></span><br><span class="line">brew install shadowsocks-libev</span><br><span class="line">brew cask install shadowsocksx-ng</span><br><span class="line"></span><br><span class="line"><span class="comment"># 2. 配置shadowsocks文件</span></span><br><span class="line"><span class="comment">## 服务器端可自行搭建梯子，该方案缺点在于存在不稳定、难维护等问题，优点在于安全可控、自由定制等。</span></span><br><span class="line"><span class="comment">## 由于篇幅问题，不介绍自行搭梯子的方案。如果想购买ss服务商的梯子，可以联系我。</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 3. 配置访问策略</span></span><br><span class="line"><span class="comment">## 3.1 如果使用图形化界面，则可以选择全局模式、PAC模式等</span></span><br><span class="line"><span class="comment">## 3.2 如果使用命令行工具，则可以在chrome中使用SwitchyOmega插件</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 4. 让其他命令走代理服务，可以设置代理变量或者使用proxychains工具</span></span><br><span class="line"><span class="comment">## 4.1</span></span><br><span class="line"><span class="built_in">alias</span> all_proxy=<span class="string">"socks5://127.0.0.1:1080"</span></span><br><span class="line"><span class="comment">## 4.2 使用时，只需在命令前加上proxychains4即可，eg:proxychains4 curl www.google.com</span></span><br><span class="line">brew install proxychains-ng </span><br><span class="line"></span><br><span class="line"><span class="comment"># 5. 其他</span></span><br><span class="line"><span class="comment">## 系统：客户端软件 Android：Shadowsocks iOS:Potatso Lite Windows:Shadowsocks-windows</span></span><br></pre></td></tr></table></figure>
+<h2 id="内网穿透"><a href="#内网穿透" class="headerlink" title="内网穿透"></a>内网穿透</h2><p>实验室电脑性能优异(i5-8400/16G/GTX-1060 6G)，相比之下，我的mbp捉襟见肘。所以我想在寝室/家中使用实验室电脑的性能。<br>尝试过花生壳、frp，不尽人意，最后才遇到神器Ngrok。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 我采取的方案是自行搭建Ngrok的服务端方法</span></span><br><span class="line"><span class="comment"># 1. 购买域名以及主机</span></span><br><span class="line"><span class="comment">## 结果</span></span><br><span class="line"><span class="comment">## 服务端：Ubuntu 16.04 amd64</span></span><br><span class="line"><span class="comment">## 客户端：Windows10 amd64、macOS amd64</span></span><br><span class="line"><span class="comment"># 2. 使用OpenSSH生成域名证书以及公私钥</span></span><br><span class="line"><span class="built_in">export</span> NGROK_DOMAIN=<span class="string">""</span></span><br><span class="line">openssl genrsa -out rootCA.key 2048</span><br><span class="line">openssl req -x509 -new -nodes -key rootCA.key -subj <span class="string">"/CN=<span class="variable">$NGROK_DOMAIN</span>"</span> -days 5000 -out rootCA.pem</span><br><span class="line">openssl genrsa -out device.key 2048</span><br><span class="line">openssl req -new -key device.key -subj <span class="string">"/CN=<span class="variable">$NGROK_DOMAIN</span>"</span> -out device.csr</span><br><span class="line">openssl x509 -req -<span class="keyword">in</span> device.csr -CA rootCA.pem -CAkey rootCA.key -CAcreateserial -out device.crt -days 5000</span><br><span class="line"><span class="comment"># 3. 证书替换</span></span><br><span class="line">cp rootCA.pem assets/client/tls/ngrokroot.crt</span><br><span class="line">cp device.crt assets/server/tls/snakeoil.crt</span><br><span class="line">cp device.key assets/server/tls/snakeoil.key</span><br><span class="line"><span class="comment"># 4. 编译适用于不同平台的ngrok软件（需要安装golang），编译结果放在bin目录下</span></span><br><span class="line">brew install go</span><br><span class="line">GOOS=linux GOARCH=amd64 make release-server</span><br><span class="line">GOOS=windows GOARCH=amd64 make release-client</span><br><span class="line">GOOS=darwin GOARCH=amd64 make release-client</span><br><span class="line"></span><br><span class="line"><span class="comment"># 5. 服务端配置</span></span><br><span class="line">nohup ngrokd -domain=<span class="string">"<span class="variable">$NGROK_DOMAIN</span>"</span> &gt; ngrokd.log 2&gt;&amp;1 &amp;</span><br><span class="line"></span><br><span class="line"><span class="comment"># 6. 客户端配置</span></span><br><span class="line"><span class="comment">## 配置ngrok_cfg.yml文件</span></span><br><span class="line">server_addr: <span class="string">"<span class="variable">$NGROK_DOMAIN</span>:4443"</span></span><br><span class="line">trust_host_root_cserts: <span class="literal">false</span></span><br><span class="line">tunnels:</span><br><span class="line">    ssh:</span><br><span class="line">        remote_port: 26622</span><br><span class="line">        proto:</span><br><span class="line">            tcp: 22</span><br><span class="line">    jupyter:</span><br><span class="line">        remote_port: 8888</span><br><span class="line">        proto:</span><br><span class="line">            tcp:8888</span><br><span class="line"></span><br><span class="line"><span class="comment">## 启动客户端</span></span><br><span class="line">nohup ngrok -config=ngrok_cfg.yml -<span class="built_in">log</span>=stdout start ssh jupyter &gt; ngrok.log 2&gt;&amp;1 &amp;</span><br></pre></td></tr></table></figure></p>
+<h2 id="多设备键鼠共享"><a href="#多设备键鼠共享" class="headerlink" title="多设备键鼠共享"></a>多设备键鼠共享</h2><p>我在实验室主要使用Windows PC以及mbp，而我自己已经非常习惯使用mbp的键盘，所以想使用mbp的键盘和触摸板直接操控Windows PC。具体的解决方案就是安装Synergy软件，<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 1. 安装</span></span><br><span class="line"><span class="comment">## macOS</span></span><br><span class="line">brew cask install synergy</span><br><span class="line"><span class="comment">## Windows(我使用chocolatey包管理工具)</span></span><br><span class="line">choco install synergy</span><br><span class="line"><span class="comment"># 2. 配置mbp服务端及Windows PC客户端</span></span><br><span class="line"><span class="comment">## 配置简单不加累述，注意Ping主机确定网络连通性</span></span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://dragonma1996.github.io/2019/04/13/macos-config-for-developer/" data-id="cjugdzfn50001vp98bj4xqj5b" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/04/13/whelk-treatment-process-md/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          重度青春痘治疗过程
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">分类</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/macOS/">macOS</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/生活/">生活</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/04/">四月 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/04/13/whelk-treatment-process-md/">重度青春痘治疗过程</a>
+          </li>
+        
+          <li>
+            <a href="/2019/04/13/macos-config-for-developer/">开发人员配置MAC</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 Xiaolong Ma<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
